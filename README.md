@@ -2,6 +2,8 @@
 
 Provide a trait and role to identify opt-in JSON serialization
 
+[![CI](https://github.com/jonathanstowe/JSON-OptIn/actions/workflows/main.yml/badge.svg)](https://github.com/jonathanstowe/JSON-OptIn/actions/workflows/main.yml)
+
 ## Synopsis
 
 ```raku
