@@ -1,0 +1,50 @@
+{
+  "children": [
+    {
+      "type": "file",
+      "name": "META6.json"
+    },
+    {
+      "name": "Changes",
+      "type": "file"
+    },
+    {
+      "name": "LICENCE",
+      "type": "file"
+    },
+    {
+      "children": [
+        {
+          "name": "020-trait.t",
+          "type": "file"
+        }
+      ],
+      "purpose": null,
+      "type": "directory",
+      "name": "t"
+    },
+    {
+      "type": "directory",
+      "name": "lib",
+      "children": [
+        {
+          "children": [
+            {
+              "name": "OptIn.rakumod",
+              "type": "file"
+            }
+          ],
+          "name": "JSON",
+          "type": "directory",
+          "purpose": null
+        }
+      ],
+      "purpose": null
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    }
+  ],
+  "type": "layout"
+}
