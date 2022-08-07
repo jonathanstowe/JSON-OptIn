@@ -1,33 +1,34 @@
 {
-  "raku": "6.d",
-  "auth": "github:jonathanstowe",
-  "tags": [
-     "json",
-     "serialization",
-     "opt-in"
+  "build-depends": [
   ],
   "description": "Provide a trait and role to identify opt-in JSON serialization",
-  "meta-version": "1",
-  "license": "Artistic-2.0",
-  "name": "JSON::OptIn",
-  "provides": {
-     "JSON::OptIn": "lib/JSON/OptIn.rakumod"
-  },
-  "test-depends": [
-  ],
   "resources": [
   ],
-  "depends": [ ],
+  "test-depends": [
+  ],
+  "meta-version": "1",
+  "support": {
+    "source": "https://github.com/jonathanstowe/JSON-OptIn.git",
+    "email": "jns+gh@gellyfish.co.uk",
+    "bugtracker": "https://github.com/jonathanstowe/JSON-OptIn/issues"
+  },
+  "license": "Artistic-2.0",
+  "provides": {
+    "JSON::OptIn": "lib/JSON/OptIn.rakumod"
+  },
+  "version": "0.0.2",
+  "raku": "6.d",
+  "depends": [
+  ],
+  "tags": [
+    "json",
+    "serialization",
+    "opt-in"
+  ],
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
-  "source-url": "https://github.com/jonathanstowe/JSON-OptIn.git",
-  "build-depends": [
-  ],
-  "support": {
-    "email": "jns+gh@gellyfish.co.uk",
-    "source": "https://github.com/jonathanstowe/JSON-OptIn.git",
-    "bugtracker" : "https://github.com/jonathanstowe/JSON-OptIn/issues"
-  },
-  "version": "0.0.1"
+  "name": "JSON::OptIn",
+  "auth": "zef:jonathanstowe",
+  "source-url": "https://github.com/jonathanstowe/JSON-OptIn.git"
 }
